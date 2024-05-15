@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Strava Kudos Clicker",
+  "version": "1.0.0",
+  "description": "Automatically gives kudos to all posts on strava dashboard",
+  "content_scripts": [
+    {
+      "matches": ["https://www.strava.com/dashboard*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
